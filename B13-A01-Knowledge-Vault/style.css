@@ -97,3 +97,56 @@ input{
 button .btn{
     background-color:#FFFFFF;
 }
+
+#section{
+    width:1600px;
+    height:448px;
+    text-align: center;
+}
+#section h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#section p{
+    font-size: 16px;
+}
+
+
+#section .cards{
+    width: 300px;
+    height: 250px;
+    color:whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px  5px;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap:16px;
+    
+    
+    
+}
+
+#section .cards:hover{
+           background-color: antiquewhite;
+}
+#section .cards .card-icon{
+                border-radius: 50%;
+    background-color:#F95555;
+
+}
+
+#section .cards .cards-container h3{
+                font-size: 24px;
+                font-weight: 600;
+                color:#000000;
+            
+}
+
+#section .cards .cards-container p{
+                  font-size: 16px;
+                  color:#627382;
+}
+   
