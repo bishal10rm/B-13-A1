@@ -1,4 +1,5 @@
 *{
+ font-family: "Inter", sans-serif;
  margin: 0;
  padding: 0;  
  box-sizing: border-box; 
@@ -25,15 +26,14 @@ nav{
     align-items: center;
   } 
 
-nav .navbar{
+nav .menu{
     display: flex;
     list-style-type: none;
     align-items: center;
     gap: 50px;
 }
 
-nav .navbar a{
-      font-family: "Inter", sans-serif;
+nav .menu a{
       font-size: 16px;
       color:#000000;
       font-weight: 500;
@@ -55,3 +55,45 @@ button{
     cursor: pointer;
 }
 
+ #banner{
+    background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    padding: 99px 120px 163px 120px; 
+   
+} 
+
+ #banner .banner-content{
+            max-width: 1360px;
+            text-align: center;
+             
+            
+}
+               
+ #banner h1{
+    font-size: 72px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-align: center;
+    
+
+}
+
+ span{
+    color:#30B868;
+}
+
+#banner p{
+    font-size: 18px;
+    color: #FFFFFF;
+} 
+
+input{
+    border-radius: 10px;
+    
+}
+
+button .btn{
+    background-color:#FFFFFF;
+}
