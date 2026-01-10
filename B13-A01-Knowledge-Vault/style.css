@@ -150,3 +150,41 @@ button .btn{
                   color:#627382;
 }
    
+#second-brain-section{
+             width: 1366px;
+             height: 600px;
+             margin: 0 auto;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+                      gap: 100px;
+}
+
+#second-brain-section .frame-image{
+                       width: 600px;
+                       height: 600px;
+                       padding-left: 85px;
+}
+ 
+#second-brain-section .frame-container h6{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color:#30B868
+                        
+}
+
+#second-brain-section .frame-container h1{
+                          font-size: 48px;
+                          font-weight: bold;
+                          color: #001931;
+}
+
+#second-brain-section .frame-container p{
+                       font-size: 14px;
+                       color:#627382;
+                       
+}
+
+#second-brain-section .frame-container ul{
+                       list-style: none;
+}
