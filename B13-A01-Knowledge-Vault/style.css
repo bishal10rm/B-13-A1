@@ -152,12 +152,11 @@ button .btn{
    
 #second-brain-section{
              width: 1366px;
-             height: 600px;
              margin: 0 auto;
              display: flex;
              align-items: center;
              justify-content: space-between;
-                      gap: 100px;
+                    
 }
 
 #second-brain-section .frame-image{
@@ -187,4 +186,34 @@ button .btn{
 
 #second-brain-section .frame-container ul{
                        list-style: none;
+}
+
+#Early-access-section{
+             width: 1200px;
+             margin:0 auto;
+             background-color:#F7F6F2;
+             display: flex;
+             flex-direction: column;
+             text-align: center;
+             align-items: center;
+             margin-top: 100px;
+             border-radius: 10px;
+             padding:60px 20px;
+             
+             
+             
+}
+
+#Early-access-section .Early-access-section-container h1{
+           margin-bottom: 10px;
+}
+
+#Early-access-section .Early-access-section-container h1{
+            font-size: 48px;
+            font-weight: bold;
+}
+
+#Early-access-section .Early-access-section-container p{
+            font-size: 16px;
+            color:#627382;
 }
